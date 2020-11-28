@@ -11,7 +11,6 @@ on:
 jobs:
   windows_job:
     name: Windows CI Job
-    build:
 
     runs-on: windows-latest
 
@@ -31,7 +30,6 @@ jobs:
 
   macos_job:
     name: Mac OS CI Job
-    build:
 
     runs-on: macos-latest
 
